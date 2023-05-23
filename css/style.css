@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #5f264a;
+  color: #b0a4a4;
+  font-family: "Raleway", sans-serif;
+}
+
+.loginForm {
+  height: 450px;
+  background-color: #643a6b;
+  border-radius: 30px;
+}
+
+.loginFormInner input {
+  border-color: #b0a4a4;
+  background-color: #b0a4a4;
+}
+.loginFormInner input:focus {
+  background-color: #b0a4a4;
+}
+.btn {
+  width: 30%;
+  border-color: #b0a4a4;
+  color: #b0a4a4;
+}
+.btn:hover {
+  background-color: #b0a4a4;
+  color: #5f264a;
+}
+span a {
+  text-decoration: none;
+  color: #957777;
+}
+
+.signUpForm {
+  height: 550px;
+  background-color: #643a6b;
+  border-radius: 30px;
+}
+.signUpFormInner input {
+  border-color: #b0a4a4;
+  background-color: #b0a4a4;
+}
+.signUpFormInner input:focus {
+  background-color: #b0a4a4;
+}
+.mainPage {
+  height: 400px;
+  background-color: #643a6b;
+  border-radius: 30px;
+}
+#login {
+  display: none;
+}
+#main {
+  display: none;
+}
+.alert {
+  display: none;
+}
+.form-control:focus
+{
+  border-color: #5f264a;
+  box-shadow: 0 0 0 0.2rem #5f264a;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+    <section id="login">
+    
+        <div class="container d-flex justify-content-center align-items-center  vh-100">
+            <div class=" loginForm d-flex justify-content-center align-items-center  w-75">
+                <div class=" loginFormContent mb-3  text-center ">
+                    <h1 class="mb-4">smart login system</h1>
+                    <div class="loginFormInner" >
+                        <input type="email" class="form-control mb-3" id="loginEmailInput" aria-describedby="emailHelp" placeholder="enter your email" required>
+                         
+                        <div id="loginEmailAlertBox" class="alert alert-danger " role="alert">
+                            the email that you entered is wrong !
+                          </div>
+
+                        <input type="password" class="form-control mb-3" id="loginPasswordInput" placeholder="enter your password" required>
+                          
+                        <div id="loginPasswordAlertBox" class="alert alert-danger " role="alert">
+                            the password that you entered is wrong !
+                          </div> 
+
+                        <button type="submit" id="loginBtn" class="btn btn-outline-secondary mb-3">login</button>
+
+                        <span id="loginSpan" class="d-block"> Don’t have an account? <a href="">sign up</a></span>
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+       
+    </section>
+
+
+    <section id="signUp">
+        <div class="container d-flex justify-content-center align-items-center  vh-100">
+            <div class=" signUpForm d-flex justify-content-center align-items-center  w-75">
+                <div class=" signUpFormContent mb-3  text-center ">
+                    <h1 class="mb-4">smart login system</h1>
+                    <div class="signUpFormInner" >
+
+                        <input type="text" class="form-control mb-3" id="signUpNameInput" placeholder="enter your name" required>
+
+                        <div id="SignUpUserNameAlertBox" class="alert alert-danger " role="alert">
+                            you should enter 4-16 characters and Has a dash and  has underscore!
+                          </div>
+
+                        <input type="email" class="form-control mb-3" id="signUpEmailInput" aria-describedby="emailHelp" placeholder="enter your email" required>
+
+                        <div id="SignUpEmailAlertBox" class="alert alert-danger " role="alert">
+                            you should enter an email format!
+                          </div>
+                
+                        <input type="password" class="form-control mb-3" id="signUpPasswordInput" placeholder="enter your password" required>
+
+                        <div id="SignUpPasswordAlertBox" class="alert alert-danger " role="alert">
+                            you should enter a strong password!
+                          </div>
+                    
+                        <button type="submit" id="signUpBtn" class="btn btn-outline-secondary mb-3">sign up</button>
+
+                        <span id="signUpSpan" class="d-block"> You have an account? <a href="#">sign in</a></span>
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container d-flex justify-content-center align-items-center  vh-100">
+            <div class=" mainPage d-flex justify-content-center align-items-center  w-75">
+                <div class=" mainPageContent mb-3  text-center ">
+                    <h1 id="h1">welcome mohamed</h1> 
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
